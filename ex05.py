@@ -1,4 +1,4 @@
-# Реализовать алгоритм перемешивания списка. 
+# Реализовать алгоритм перемешивания списка.
 
 # функция для создания и печати списка
 def listMinusPlusN(resultArr=[]):
@@ -13,16 +13,17 @@ def listMinusPlusN(resultArr=[]):
     print(resultArr)
     return(resultArr)
 
+
 Arr1 = []
 listMinusPlusN(Arr1)
 
 Arr2 = Arr1.copy()
-x=len(Arr1)-1
+x = len(Arr1)-1
 # print(x)
 
 for i in Arr1:
-    Arr2[x]=Arr1[i]
-    x=x-1
+    Arr2[x] = Arr1[i]
+    x = x-1
 
 print('математически перемешанный список:')
 print(Arr2)
